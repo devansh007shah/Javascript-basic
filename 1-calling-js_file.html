@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javscript Implementation</title>
+    <!-- 1st way to call external JS file in HTML - inside the head tag -----NOT PREFFERED -->
+    <script src=""></script>
+  </head>
+  <body>
+    <!-- 2nd Way to call JS in HTML --- INTERNAL jS files -->
+    <script>
+      console.log("Welcome to Javscript");
+    </script>
+
+    <h2>Advantages of External Js file</h2>
+    <ol>
+      <li>Cache file of External js file makes loading of the page quicker</li>
+      <li>Clear seperation of HTML and JS codes</li>
+      <li>Easier to read jS and html file</li>
+    </ol>
+
+    <script>
+      document.write("<br> <strong>Hello Devansh</strong>");
+    </script>
+
+    <!-- 3rd way to call EXTERNAL js file in the body tag -->
+    <script src=""></script>
+  </body>
+</html>
